@@ -261,5 +261,14 @@ getTeam().forEach((pokemon) => {
   );
 });
 
+/**
+ * TODO:
+ * Better caching?? (Thread safety, not memory based ideally)
+ * Setup a basic UI and serve it somehow? Maybe port to firebase/aws
+ * Cleanup items
+ * Validate sets are valid
+ * long term: gen based generation, smarter items, smarter moves, smarter evs
+ */
+
 
 Promise.all(promises).then(() => console.log(results));
